@@ -20,6 +20,9 @@ module.exports = {
         "theme-red": {
           800: "#A90A0A",
         },
+        slate: {
+          70090: "rgba(51, 65, 85, 0.9)",
+        },
       },
     },
   },

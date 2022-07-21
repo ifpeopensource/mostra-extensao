@@ -9,3 +9,104 @@
 
 @tailwind components;
 @tailwind utilities;
+
+.el-schedule-filter--active {
+  @apply bg-theme-blue-500;
+  @apply text-slate-100;
+}
+
+.el-schedule-filter--inactive {
+  @apply bg-slate-50 border-2 border-theme-blue-500;
+  @apply text-theme-blue-500;
+}
+
+.Arte-e-Cultura {
+  @apply bg-theme-orange-500;
+}
+
+.Inclusão {
+  @apply bg-theme-red-800;
+}
+
+.Agro {
+  @apply bg-emerald-900;
+}
+
+.Maker {
+  @apply bg-violet-800;
+}
+
+.Empregabilidade {
+  @apply bg-yellow-600;
+}
+
+/* Schedule */
+.style-dayContainer {
+  @apply flex flex-col md:selection:items-center gap-2 md:gap-4 w-full md:max-w-sm;
+}
+
+.style-dayHeader {
+  @apply text-xl font-bold;
+}
+
+.style-eventList {
+  @apply flex flex-col gap-2 md:gap-4;
+}
+
+.style-eventItem {
+  @apply flex flex-1;
+}
+
+.style-eventButton {
+  @apply flex flex-1 gap-2 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem];
+}
+
+.style-eventHourContainer {
+  @apply flex flex-col gap-2 items-start;
+}
+
+.style-eventHour {
+  @apply text-xl;
+}
+
+.style-eventLabel {
+  @apply block py-1 px-2 whitespace-nowrap rounded-full text-sm text-slate-100 font-bold leading-none;
+}
+
+.style-eventTitle {
+  @apply leading-6 text-right;
+}
+
+/* Speakers */
+.style-speakerItem {
+  @apply flex flex-col grow basis-1/4 md:basis-1/5 w-24 gap-2 items-center justify-center;
+}
+
+.style-speakerImage {
+  @apply rounded-full object-cover w-24 h-24;
+}
+
+.style-speakerName {
+  @apply text-center leading-tight;
+}
+
+/* Modal */
+.style-modal-event-details-title {
+  @apply font-bold;
+}
+
+.style-modal-content {
+  max-height: 80vh;
+}
+
+.style-modal-container {
+  width: calc(100vw - 1rem);
+}
+
+.style-modal-share-copy-button {
+  @apply bg-slate-200 hover:brightness-75 transition rounded-lg px-4 py-2 font-bold leading-none;
+}
+
+.style-modal-share-calendar-button {
+  @apply flex items-center gap-2 bg-slate-200 hover:brightness-75 transition rounded-lg px-4 py-2 font-bold leading-none;
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Ana Paula Ramos",
+    "image": "./assets/images/speakers/ana-paula-ramos.jpg"
+  },
+  {
+    "name": "Antônio Brandão",
+    "image": "./assets/images/speakers/antonio-brandao.jpg"
+  },
+  {
+    "name": "Bernardo Klimsa",
+    "image": "./assets/images/speakers/bernardo-klimsa.jpg"
+  },
+  {
+    "name": "Camila Lima",
+    "image": "./assets/images/speakers/camila-lima.jpg"
+  },
+  {
+    "name": "Hilson Vilar",
+    "image": "./assets/images/speakers/hilson-vilar.jpg"
+  },
+  {
+    "name": "Jadiel Araújo",
+    "image": "./assets/images/speakers/jadiel-araujo.jpg"
+  },
+  {
+    "name": "Januário Leal",
+    "image": "./assets/images/speakers/januario-leal.jpg"
+  },
+  {
+    "name": "José Mário Melo",
+    "image": "./assets/images/speakers/jose-mario-melo.jpg"
+  },
+  {
+    "name": "Kenio Menezes",
+    "image": "./assets/images/speakers/kenio-menezes.jpg"
+  },
+  {
+    "name": "Keylla Alves",
+    "image": "./assets/images/speakers/keylla-alves.jpg"
+  },
+  {
+    "name": "Michelle Feitosa",
+    "image": "./assets/images/speakers/michelle-feitosa.jpg"
+  },
+  {
+    "name": "Pryscila Teixeira",
+    "image": "./assets/images/speakers/pryscila-teixeira.jpg"
+  },
+  {
+    "name": "Welton Felix",
+    "image": "./assets/images/speakers/welton-felix.jpg"
+  },
+  {
+    "name": "Fábio Papais",
+    "image": "./assets/images/speakers/fabio-papais.jpg"
+  },
+  {
+    "name": "Jaubert Gouveia",
+    "image": "./assets/images/speakers/jaubert-gouveia.jpg"
+  },
+  {
+    "name": "Ryan Paiva",
+    "image": "./assets/images/speakers/ryan-paiva.jpg"
+  },
+  {
+    "name": "Estevão Pereira",
+    "image": "./assets/images/speakers/estevao-pereira.png"
+  }
+]

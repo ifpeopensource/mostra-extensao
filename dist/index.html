@@ -4,46 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
     <title>X Mostra de Extensão do IFPE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet" />
   </head>
+
   <body>
     <header
-      class="flex items-center justify-center p-8 md:py-20 md:px-16 bg-gradient-to-tr from-theme-green-300 via-theme-green-200 to-theme-blue-200"
-    >
+      class="flex items-center justify-center p-8 md:py-20 md:px-16 bg-gradient-to-tr from-theme-green-300 via-theme-green-200 to-theme-blue-200">
       <div
-        class="flex flex-col md:flex-row w-full max-w-5xl gap-6 md:gap-3 items-center justify-center md:justify-between"
-      >
-        <img
-          src="./assets/images/logo.png"
-          alt="X Mostra de Extensão do IFPE"
-          class="h-24 lg:h-32"
-        />
-        <div
-          class="flex flex-col gap-6 items-center md:items-end justify-center"
-        >
+        class="flex flex-col md:flex-row w-full max-w-5xl gap-6 md:gap-3 items-center justify-center md:justify-between">
+        <img src="./assets/images/logo.png" alt="X Mostra de Extensão do IFPE" class="h-24 lg:h-32" />
+        <div class="flex flex-col gap-6 items-center md:items-end justify-center">
           <p class="text-xl md:text-2xl text-center md:text-right">
             27 a 30 de julho | IFPE <span class="italic">Campus</span> Recife
           </p>
-          <a
-            href="https://www.even3.com.br/xmostrarecife"
-            rel="noopener noreferrer"
-            class="block bg-theme-blue-500 py-2 px-6 rounded-full hover:brightness-75 transition cursor-pointer text-2xl text-slate-100 font-bold leading-none"
-            >Inscrever-se</a
-          >
+          <a href="https://www.even3.com.br/xmostrarecife" rel="noopener noreferrer" class="block bg-theme-blue-500 py-2 px-6 rounded-full hover:brightness-75 transition cursor-pointer text-2xl text-slate-100 font-bold leading-none">
+            Inscrever-se
+          </a>
         </div>
       </div>
     </header>
-    <main
-      class="flex flex-col gap-8 items-center mt-10 mb-16 p-2 pb-0 md:p-4 md:pb-0 w-full max-w-5xl lg:mx-auto"
-    >
-      <p class="text-2xl font-medium leading-5">O evento começa em X dias!</p>
+    <main class="flex flex-col gap-8 items-center mt-10 mb-16 p-2 pb-0 md:p-4 md:pb-0 w-full max-w-5xl lg:mx-auto">
+      <noscript>
+        <div class="bg-red-100 p-4 rounded-lg text-center text-theme-red-500">
+          <p class="text-xl">
+            Você precisa ter o JavaScript ativado para visualizar este site da
+            forma correta!
+          </p>
+        </div>
+      </noscript>
+      <p class="el-days-left text-2xl font-medium leading-5"></p>
       <p class="leading-7 text-justify">
         A décima edição da Mostra de Extensão do IFPE -
         <span class="italic">Campus</span> Recife, em 2022, é dedicada à memória
@@ -51,371 +45,59 @@
         atividades voltadas à prática extensionista, divididas nas trilhas Arte
         e Cultura, Agroecologia, Cultura Maker, Inclusão e Empregabilidade.
       </p>
-      <!-- Programação -->
+      <!-- Schedule -->
       <div class="flex flex-col gap-4 w-full items-center">
-        <h1
-          class="w-full text-2xl md:text-3xl font-bold leading-5 text-center md:text-left"
-        >
+        <h1 class="w-full text-2xl md:text-3xl font-bold leading-5 text-center md:text-left">
           Programação
         </h1>
-        <ul class="flex gap-4">
-          <li
-            class="block bg-theme-blue-500 py-2 px-4 rounded-full hover:brightness-75 transition cursor-pointer text-slate-100 font-bold leading-none"
-          >
+        <ul class="el-schedule-filters flex gap-4">
+          <li id="el-schedule-filter-next"
+            class="el-schedule-filter el-schedule-filter--active block py-2 px-4 rounded-full hover:brightness-75 transition cursor-pointer font-bold leading-none">
             Próximos eventos
           </li>
-          <li
-            class="block bg-slate-50 border-2 border-theme-blue-500 py-2 px-4 rounded-full hover:brightness-75 transition cursor-pointer text-theme-blue-500 font-bold leading-none"
-          >
+          <li id="el-schedule-filter-all"
+            class="el-schedule-filter el-schedule-filter--inactive block py-2 px-4 rounded-full hover:brightness-75 transition cursor-pointer font-bold leading-none">
             Todos
           </li>
         </ul>
-        <div
-          class="flex flex-col flex-wrap md:flex-row justify-center md:mt-2 gap-4 w-full"
-        >
-          <div
-            class="flex flex-col md:items-center gap-2 md:gap-4 w-full md:max-w-sm"
-          >
-            <h2 class="text-xl font-bold">Quarta, 27 de julho</h2>
-            <ul class="flex flex-col gap-2 md:gap-4">
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div><span class="text-xl">09:00</span></div>
-                  <span class="leading-6 text-right">Abertura</span>
-                </button>
-              </li>
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div class="flex flex-col gap-2 items-start">
-                    <span class="text-xl">11:00</span
-                    ><span
-                      class="block bg-theme-orange-500 py-1 px-2 rounded-full text-sm text-slate-100 font-bold leading-none"
-                      >Arte e Cultura</span
-                    >
-                  </div>
-                  <span class="leading-6 text-right"
-                    >Apresentação da Big Band</span
-                  >
-                </button>
-              </li>
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div class="flex flex-col gap-2 items-start">
-                    <span class="text-xl">11:00</span
-                    ><span
-                      class="block bg-theme-red-800 py-1 px-2 rounded-full text-sm text-slate-100 font-bold leading-none"
-                      >Inclusão</span
-                    >
-                  </div>
-                  <span class="leading-6 text-right"
-                    >Parceria com a Federação Pernambucana de
-                    Parataekwondo</span
-                  >
-                </button>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="flex flex-col md:items-center gap-2 md:gap-4 w-full md:max-w-sm"
-          >
-            <h2 class="text-xl font-bold">Quarta, 27 de julho</h2>
-            <ul class="flex flex-col gap-2 md:gap-4">
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div><span class="text-xl">09:00</span></div>
-                  <span class="leading-6 text-right">Abertura</span>
-                </button>
-              </li>
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div class="flex flex-col gap-2 items-start">
-                    <span class="text-xl">11:00</span
-                    ><span
-                      class="block bg-theme-orange-500 py-1 px-2 rounded-full text-sm text-slate-100 font-bold leading-none"
-                      >Arte e Cultura</span
-                    >
-                  </div>
-                  <span class="leading-6 text-right"
-                    >Apresentação da Big Band</span
-                  >
-                </button>
-              </li>
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div class="flex flex-col gap-2 items-start">
-                    <span class="text-xl">11:00</span
-                    ><span
-                      class="block bg-theme-red-800 py-1 px-2 rounded-full text-sm text-slate-100 font-bold leading-none"
-                      >Inclusão</span
-                    >
-                  </div>
-                  <span class="leading-6 text-right"
-                    >Parceria com a Federação Pernambucana de
-                    Parataekwondo</span
-                  >
-                </button>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="flex flex-col md:items-center gap-2 md:gap-4 w-full md:max-w-sm"
-          >
-            <h2 class="text-xl font-bold">Quarta, 27 de julho</h2>
-            <ul class="flex flex-col gap-2 md:gap-4">
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div><span class="text-xl">09:00</span></div>
-                  <span class="leading-6 text-right">Abertura</span>
-                </button>
-              </li>
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div class="flex flex-col gap-2 items-start">
-                    <span class="text-xl">11:00</span
-                    ><span
-                      class="block bg-theme-orange-500 py-1 px-2 rounded-full text-sm text-slate-100 font-bold leading-none"
-                      >Arte e Cultura</span
-                    >
-                  </div>
-                  <span class="leading-6 text-right"
-                    >Apresentação da Big Band</span
-                  >
-                </button>
-              </li>
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div class="flex flex-col gap-2 items-start">
-                    <span class="text-xl">11:00</span
-                    ><span
-                      class="block bg-theme-red-800 py-1 px-2 rounded-full text-sm text-slate-100 font-bold leading-none"
-                      >Inclusão</span
-                    >
-                  </div>
-                  <span class="leading-6 text-right"
-                    >Parceria com a Federação Pernambucana de
-                    Parataekwondo</span
-                  >
-                </button>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="flex flex-col md:items-center gap-2 md:gap-4 w-full md:max-w-sm"
-          >
-            <h2 class="text-xl font-bold">Quarta, 27 de julho</h2>
-            <ul class="flex flex-col gap-2 md:gap-4">
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div><span class="text-xl">09:00</span></div>
-                  <span class="leading-6 text-right">Abertura</span>
-                </button>
-              </li>
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div class="flex flex-col gap-2 items-start">
-                    <span class="text-xl">11:00</span
-                    ><span
-                      class="block bg-theme-orange-500 py-1 px-2 rounded-full text-sm text-slate-100 font-bold leading-none"
-                      >Arte e Cultura</span
-                    >
-                  </div>
-                  <span class="leading-6 text-right"
-                    >Apresentação da Big Band</span
-                  >
-                </button>
-              </li>
-              <li class="flex flex-1">
-                <button
-                  class="flex flex-1 items-center justify-between bg-slate-200 rounded-lg p-4 min-h-[4.5rem]"
-                >
-                  <div class="flex flex-col gap-2 items-start">
-                    <span class="text-xl">11:00</span
-                    ><span
-                      class="block bg-theme-red-800 py-1 px-2 rounded-full text-sm text-slate-100 font-bold leading-none"
-                      >Inclusão</span
-                    >
-                  </div>
-                  <span class="leading-6 text-right"
-                    >Parceria com a Federação Pernambucana de
-                    Parataekwondo</span
-                  >
-                </button>
-              </li>
-            </ul>
-          </div>
+        <div class="el-schedule-days-container flex flex-col flex-wrap md:flex-row justify-center md:mt-2 gap-4 w-full">
         </div>
       </div>
-      <!-- Palestrantes -->
+      <!-- Speakers -->
       <div class="flex flex-col gap-4 w-full items-center">
-        <h1
-          class="w-full text-2xl md:text-3xl font-bold leading-5 text-center md:text-left"
-        >
+        <h1 class="w-full text-2xl md:text-3xl font-bold leading-5 text-center md:text-left">
           Palestrantes
         </h1>
-        <ul class="flex flex-wrap gap-2 md:gap-4 w-full">
-          <li
-            class="flex flex-col grow basis-1/4 w-24 gap-2 items-center justify-center"
-          >
-            <img
-              src="https://github.com/ifpeopensource.png?size=96"
-              width="96px"
-              height="96px"
-              class="rounded-full"
-              alt="IFPE Open Source"
-            />
-            <p class="leading-none">IFPE Open Source</p>
-          </li>
-          <li
-            class="flex flex-col grow basis-1/4 w-24 gap-2 items-center justify-center"
-          >
-            <img
-              src="https://github.com/ifpeopensource.png?size=96"
-              width="96px"
-              height="96px"
-              class="rounded-full"
-              alt="IFPE Open Source"
-            />
-            <p class="leading-none">IFPE Open Source</p>
-          </li>
-          <li
-            class="flex flex-col grow basis-1/4 w-24 gap-2 items-center justify-center"
-          >
-            <img
-              src="https://github.com/ifpeopensource.png?size=96"
-              width="96px"
-              height="96px"
-              class="rounded-full"
-              alt="IFPE Open Source"
-            />
-            <p class="leading-none">IFPE Open Source</p>
-          </li>
-          <li
-            class="flex flex-col grow basis-1/4 w-24 gap-2 items-center justify-center"
-          >
-            <img
-              src="https://github.com/ifpeopensource.png?size=96"
-              width="96px"
-              height="96px"
-              class="rounded-full"
-              alt="IFPE Open Source"
-            />
-            <p class="leading-none">IFPE Open Source</p>
-          </li>
-          <li
-            class="flex flex-col grow basis-1/4 w-24 gap-2 items-center justify-center"
-          >
-            <img
-              src="https://github.com/ifpeopensource.png?size=96"
-              width="96px"
-              height="96px"
-              class="rounded-full"
-              alt="IFPE Open Source"
-            />
-            <p class="leading-none">IFPE Open Source</p>
-          </li>
-          <li
-            class="flex flex-col grow basis-1/4 w-24 gap-2 items-center justify-center"
-          >
-            <img
-              src="https://github.com/ifpeopensource.png?size=96"
-              width="96px"
-              height="96px"
-              class="rounded-full"
-              alt="IFPE Open Source"
-            />
-            <p class="leading-none">IFPE Open Source</p>
-          </li>
-        </ul>
-        <button
-          type="button"
-          class="w-full md:w-auto bg-slate-200 text-xl font-bold py-2 px-8 md:px-16 rounded-lg hover:brightness-75 transition"
-        >
+        <ul class="el-speakers-container flex flex-wrap gap-2 md:gap-4 w-full"></ul>
+        <button type="button"
+          class="el-speakers-load hidden w-full md:w-auto bg-slate-200 text-xl font-bold py-2 px-8 md:px-16 rounded-lg hover:brightness-75 transition">
           Ver mais
         </button>
       </div>
     </main>
     <footer class="pt-8 pb-4 md:pb-8 bg-blue-100">
-      <div
-        class="flex flex-col items-center gap-4 max-w-5xl lg:mx-auto px-2 md:px-4"
-      >
+      <div class="flex flex-col items-center gap-4 max-w-5xl lg:mx-auto px-2 md:px-4">
         <!-- Realização -->
         <div class="flex flex-col w-full gap-4 items-center md:items-start">
           <p>Realização</p>
-          <div
-            class="flex flex-col flex-wrap md:flex-row w-full gap-4 items-center md:justify-between"
-          >
-            <img
-              src="./assets/images/ifpe_logo.png"
-              class="h-16"
-              width="229px"
-              height="64px"
-              alt="Instituto Federal de Pernambuco"
-            />
-            <img
-              src="./assets/images/tribute_logo.png"
-              class="h-16"
-              width="273px"
-              height="64px"
-              alt="Professora Márcia Moura. Homenageada da X Mostra de Extensão do IFPE Campus Recife"
-            />
+          <div class="flex flex-col flex-wrap md:flex-row w-full gap-4 items-center md:justify-between">
+            <img src="./assets/images/ifpe_logo.png" class="h-16" width="229px" height="64px"
+              alt="Instituto Federal de Pernambuco" />
+            <img src="./assets/images/tribute_logo.png" class="h-16" width="273px" height="64px"
+              alt="Professora Márcia Moura. Homenageada da X Mostra de Extensão do IFPE Campus Recife" />
           </div>
         </div>
         <!-- Apoio -->
         <div class="flex flex-col w-full gap-4 items-center md:items-start">
           <p>Apoio</p>
-          <div
-            class="flex flex-col flex-wrap md:flex-row w-full gap-4 items-center md:justify-between"
-          >
-            <img
-              src="./assets/images/assif_logo.png"
-              class="h-16"
-              width="310px"
-              height="64px"
-              alt="ASSIF-PE. Associação dos Servidores dos Institutos Federais em Pernambuco"
-            />
-            <img
-              src="./assets/images/ciee_logo.webp"
-              class="h-16"
-              width="93px"
-              height="64px"
-              alt="CIEE Pernambuco"
-            />
-            <img
-              src="./assets/images/ifpeopensource_logo.png"
-              class="h-16"
-              width="193.3px"
-              height="64px"
-              alt="IFPE Open Source"
-            />
-            <img
-              src="./assets/images/idv_logo.png"
-              class="h-16"
-              width="202px"
-              height="64px"
-              alt="Instituto Internacional Despertando Vocações"
-            />
+          <div class="flex flex-col flex-wrap md:flex-row w-full gap-4 items-center md:justify-between">
+            <img src="./assets/images/assif_logo.png" class="h-16" width="310px" height="64px"
+              alt="ASSIF-PE. Associação dos Servidores dos Institutos Federais em Pernambuco" />
+            <img src="./assets/images/ciee_logo.webp" class="h-16" width="93px" height="64px" alt="CIEE Pernambuco" />
+            <img src="./assets/images/ifpeopensource_logo.png" class="h-16" width="193.3px" height="64px"
+              alt="IFPE Open Source" />
+            <img src="./assets/images/idv_logo.png" class="h-16" width="202px" height="64px"
+              alt="Instituto Internacional Despertando Vocações" />
           </div>
         </div>
         <hr class="w-24 md:w-32 h-[2px] bg-slate-400" />
@@ -423,63 +105,89 @@
           Este website foi desenvolvido por alunos integrantes da comunidade
           IFPE Open Source
           <br />
-          <a
-            href="http://github.com/ifpeopensource"
-            class="text-blue-900 underline underline-offset-2 hover:brightness-50 transition"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Clique aqui para acessar o código-fonte</a
-          >
+          <a href="https://github.com/ifpeopensource/mostra-extensao"
+            class="text-blue-900 underline underline-offset-2 hover:brightness-50 transition" target="_blank"
+            rel="noopener noreferrer">Clique aqui para acessar o código-fonte</a>
         </p>
         <hr class="w-24 md:w-32 h-[2px] bg-slate-400" />
         <p class="text-sm md:text-base text-center leading-7">
           Design de marca por
-          <a
-            href="http://instagram.com/camila_siilva123"
-            class="text-blue-900 underline underline-offset-2 hover:brightness-50 transition"
-            target="_blank"
-            rel="noopener noreferrer"
-            >@camila_siilva123</a
-          >
+          <a href="https://instagram.com/camila_siilva123"
+            class="text-blue-900 underline underline-offset-2 hover:brightness-50 transition" target="_blank"
+            rel="noopener noreferrer">@camila_siilva123</a>
           e
-          <a
-            href="http://instagram.com/lay.atorie"
-            class="text-blue-900 underline underline-offset-2 hover:brightness-50 transition"
-            target="_blank"
-            rel="noopener noreferrer"
-            >@lay.atorie</a
-          >
+          <a href="https://instagram.com/lay.atorie"
+            class="text-blue-900 underline underline-offset-2 hover:brightness-50 transition" target="_blank"
+            rel="noopener noreferrer">@lay.atorie</a>
         </p>
         <hr class="w-24 md:w-32 h-[2px] bg-slate-400" />
-        <img
-          src="./assets/images/logo.png"
-          class="h-16"
-          width="178px"
-          height="64px"
-          alt="X Mostra de Extensão do IFPE"
-        />
+        <img src="./assets/images/logo.png" class="h-16" width="178px" height="64px" alt="X Mostra de Extensão do IFPE" />
       </div>
     </footer>
     <div class="w-full flex items-center justify-center bg-indigo-200 py-1">
       <p class="text-sm md:text-base leading-7">
         Feito com ❤️ no
-        <img
-          src="https://github.com/ifpeopensource.png?size=48"
-          class="inline-block"
-          width="14px"
-          height="14px"
-          alt="Logomarca do IFPE Open Source"
-        />
-        <a
-          href="http://ifpeopensource.com.br"
-          class="text-blue-900 underline underline-offset-2 hover:brightness-50 transition"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          IFPE Open Source</a
-        >
+        <img src="https://github.com/ifpeopensource.png?size=48" class="inline-block" width="14px" height="14px"
+          alt="Logomarca do IFPE Open Source" />
+        <a href="https://ifpeopensource.com.br"
+          class="text-blue-900 underline underline-offset-2 hover:brightness-50 transition" target="_blank"
+          rel="noopener noreferrer">
+          IFPE Open Source</a>
       </p>
     </div>
-    <script src="./main.js"></script>
+    <div class="el-modal-overlay hidden fixed z-10 w-screen h-screen top-0 left-0 bg-slate-70090 items-center justify-center"></div>
+    <div class="el-modal-container style-modal-container hidden fixed z-20 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-slate-50 max-w-3xl rounded-lg">
+      <div class="flex items-center justify-between p-4 bg-slate-200 rounded-t-lg h-14">
+        <p>Detalhes do Evento</p>
+        <button type="button" class="el-modal-close flex items-center justify-center hover:bg-slate-300 rounded transition p-1">
+          <i data-feather="x"></i>
+        </button>
+      </div>
+      <div class="style-modal-content flex flex-col gap-6 px-4 pt-6 pb-8 overflow-auto">
+        <div class="flex flex-col gap-4">
+          <h1 class="el-modal-event-title text-xl font-bold text-left">
+          </h1>
+          <div class="el-modal-event-details text-lg flex flex-col gap-1">
+          </div>
+          <p class="el-modal-event-description">
+          </p>
+        </div>
+        <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-2">
+            <h3 class="font-bold text-left">Compartilhar</h3>
+            <div class="el-modal-share flex flex-wrap gap-2">
+              <button class="bg-slate-200 hover:brightness-75 transition rounded-lg px-4 py-2 font-bold leading-none">
+                Copiar evento
+              </button>
+              <a href="" target="_blank" rel="noopener noreferrer"
+                class="flex items-center gap-2 bg-slate-200 hover:brightness-75 transition rounded-lg px-4 py-2 font-bold leading-none">
+                <img src="./assets/icons/whatsapp.svg" alt="WhatsApp" />
+                WhatsApp
+              </a>
+              <a href="" target="_blank" rel="noopener noreferrer"
+                class="flex items-center gap-2 bg-slate-200 hover:brightness-75 transition rounded-lg px-4 py-2 font-bold leading-none">
+                <img src="./assets/icons/whatsapp.svg" alt="WhatsApp" />
+                WhatsApp
+              </a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h3 class="font-bold text-left">Adicionar ao Calendário</h3>
+          <div class="el-modal-calendar flex flex-wrap gap-2">
+            <a href="" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-2 bg-slate-200 hover:brightness-75 transition rounded-lg px-4 py-2 font-bold leading-none">
+              <img src="./assets/icons/whatsapp.svg" alt="WhatsApp" />
+              Google Calendar
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-2 bg-slate-200 hover:brightness-75 transition rounded-lg px-4 py-2 font-bold leading-none">
+              <img src="./assets/icons/whatsapp.svg" alt="WhatsApp" />
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <script src="./main.js"></script>
   </body>
 </html>
