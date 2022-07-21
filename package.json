@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "build:css": "tailwindcss -i ./src/style.css -o ./dist/style.css --minify"
   },
   "license": "MIT",
   "private": true,

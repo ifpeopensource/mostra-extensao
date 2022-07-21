@@ -12,7 +12,10 @@
  * @param {EventObject} event Event data
  * @returns {string} Share URL
  */
-export default function generateShareURL(socialMedia, { title, startDate, location }) {
+export default function generateShareURL(
+  socialMedia,
+  { title, startDate, location }
+) {
   function copy() {
     return message;
   }
@@ -25,7 +28,7 @@ export default function generateShareURL(socialMedia, { title, startDate, locati
 
   function facebook() {
     const url = new URL("https://www.facebook.com/sharer/sharer.php");
-    url.searchParams.set("u", "https://mostraextensaoifpe.com.br");
+    url.searchParams.set("u", "https://mostraextensaoifpe.vercel.app/");
     return url.href;
   }
 
@@ -44,7 +47,7 @@ export default function generateShareURL(socialMedia, { title, startDate, locati
 
   function linkedin() {
     const url = new URL("https://www.linkedin.com/sharing/share-offsite/");
-    url.searchParams.set("url", "https://mostraextensaoifpe.com.br");
+    url.searchParams.set("url", "https://mostraextensaoifpe.vercel.app/");
     return url.href;
   }
 
@@ -93,7 +96,7 @@ export default function generateShareURL(socialMedia, { title, startDate, locati
     formmatedDate.weekday.slice(1)
   } (${formmatedDate.day}) às ${
     formmatedDate.hour
-  } vai acontecer o evento ${title} durante a X Mostra de Extensão do IFPE.\n\nLocal: ${location} - IFPE Campus Recife.\n\nPara mais informações, acesse: https://mostraextensaoifpe.com.br`;
+  } vai acontecer o evento ${title} durante a X Mostra de Extensão do IFPE.\n\nLocal: ${location} - IFPE Campus Recife.\n\nPara mais informações, acesse: https://mostraextensaoifpe.vercel.app`;
 
   if (!socialMediaServices[socialMedia]) {
     throw new Error(`Unknown social media service: ${socialMedia}`);
