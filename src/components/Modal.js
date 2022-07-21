@@ -66,6 +66,10 @@ export class Modal {
     this.#overlayEl.classList.add("hidden");
     this.#containerEl.classList.add("hidden");
 
+    for (const eventEl of Object.values(this.#eventEls)) {
+      eventEl.replaceChildren();
+    }
+
     this.body.style.overflow = "auto";
   }
 

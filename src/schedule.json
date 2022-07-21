@@ -5,8 +5,8 @@
       {
         "title": "Abertura",
         "description": "",
-        "start": "2022-07-27T09:00:00.000Z",
-        "end": "2022-07-27T10:00:00.000Z",
+        "start": "2022-07-27T09:00:00",
+        "end": "2022-07-27T10:00:00",
         "label": null,
         "speakers": null,
         "location": "Auditório"
@@ -14,8 +14,8 @@
       {
         "title": "Mostra PIBEX",
         "description": "",
-        "start": "2022-07-27T09:00:00.000Z",
-        "end": "2022-07-27T18:00:00.000Z",
+        "start": "2022-07-27T09:00:00",
+        "end": "2022-07-27T18:00:00",
         "label": null,
         "speakers": null,
         "location": "Hall de Entrada"
@@ -23,8 +23,8 @@
       {
         "title": "Apresentação da Big Band",
         "description": "",
-        "start": "2022-07-27T10:00:00.000Z",
-        "end": "2022-07-27T11:00:00.000Z",
+        "start": "2022-07-27T10:00:00",
+        "end": "2022-07-27T11:00:00",
         "label": "Arte e Cultura",
         "speakers": null,
         "location": "Pátio"
@@ -32,8 +32,8 @@
       {
         "title": "Feira Agroecológica",
         "description": "",
-        "start": "2022-07-27T10:00:00.000Z",
-        "end": "2022-07-27T16:00:00.000Z",
+        "start": "2022-07-27T10:00:00",
+        "end": "2022-07-27T16:00:00",
         "label": "Agro",
         "speakers": null,
         "location": "Pátio"
@@ -41,8 +41,8 @@
       {
         "title": "Roda de Conversa - Fortalecimento dos empreendimentos solidários femininos",
         "description": "",
-        "start": "2022-07-27T10:30:00.000Z",
-        "end": "2022-07-27T12:00:00.000Z",
+        "start": "2022-07-27T10:30:00",
+        "end": "2022-07-27T12:00:00",
         "label": "Agro",
         "speakers": "Camila Lima",
         "location": "Pátio"
@@ -50,8 +50,8 @@
       {
         "title": "Exposição - Conhecendo Libras",
         "description": "",
-        "start": "2022-07-27T11:00:00.000Z",
-        "end": "2022-07-27T17:00:00.000Z",
+        "start": "2022-07-27T11:00:00",
+        "end": "2022-07-27T17:00:00",
         "label": "Inclusão",
         "speakers": "Bernardo Klimsa",
         "location": "Pátio"
@@ -59,8 +59,8 @@
       {
         "title": "Roda de Conversa - Combate à violência por orientação e identidade sexual",
         "description": "",
-        "start": "2022-07-27T13:00:00.000Z",
-        "end": "2022-07-27T16:00:00.000Z",
+        "start": "2022-07-27T13:00:00",
+        "end": "2022-07-27T16:00:00",
         "label": "Inclusão",
         "speakers": "NEGED",
         "location": "Pátio"
@@ -68,8 +68,8 @@
       {
         "title": "Oficina - Robótica Competitiva",
         "description": "Você tem interesse em robótica? Conhece robôs que participam de competições? Venha conhecer as competições do tema e como funcionam. Na oficina vamos explicar e demonstrar o funcionamento de robôs de competições na categoria VSS Soccer. #ifpeopensource",
-        "start": "2022-07-27T13:00:00.000Z",
-        "end": "2022-07-27T16:00:00.000Z",
+        "start": "2022-07-27T13:00:00",
+        "end": "2022-07-27T16:00:00",
         "label": "Maker",
         "speakers": "Ryan Paiva, Jaubert Gouveia, Marcelo Barreiros e Estevão Pereira",
         "location": "IF Maker (Sala B01)"
@@ -77,8 +77,8 @@
       {
         "title": "Formação - Educação Inclusiva",
         "description": "",
-        "start": "2022-07-27T13:00:00.000Z",
-        "end": "2022-07-27T17:00:00.000Z",
+        "start": "2022-07-27T13:00:00",
+        "end": "2022-07-27T17:00:00",
         "label": "Inclusão",
         "speakers": "Michelle Feitosa",
         "location": "Sala B10"
@@ -86,8 +86,8 @@
       {
         "title": "Pocket Show com Bebeto Cruz",
         "description": "",
-        "start": "2022-07-27T15:00:00.000Z",
-        "end": "2022-07-27T16:00:00.000Z",
+        "start": "2022-07-27T15:00:00",
+        "end": "2022-07-27T16:00:00",
         "label": "Arte e Cultura",
         "speakers": null,
         "location": "Pátio"
@@ -95,8 +95,8 @@
       {
         "title": "Oficina - Imersão no Xadrez (Parte 1)",
         "description": "",
-        "start": "2022-07-27T17:30:00.000Z",
-        "end": "2022-07-27T18:30:00.000Z",
+        "start": "2022-07-27T17:30:00",
+        "end": "2022-07-27T18:30:00",
         "label": "Maker",
         "speakers": "Kênio Menezes",
         "location": "Miniauditório"
@@ -109,8 +109,8 @@
       {
         "title": "Mostra PIBEX",
         "description": "",
-        "start": "2022-07-28T09:00:00.000Z",
-        "end": "2022-07-28T18:00:00.000Z",
+        "start": "2022-07-28T09:00:00",
+        "end": "2022-07-28T18:00:00",
         "label": null,
         "speakers": null,
         "location": "Hall de Entrada"
@@ -118,8 +118,8 @@
       {
         "title": "Oficina - Arduino e Tecnologia Assistiva (Turma 1)",
         "description": "",
-        "start": "2022-07-28T09:00:00.000Z",
-        "end": "2022-07-28T11:00:00.000Z",
+        "start": "2022-07-28T09:00:00",
+        "end": "2022-07-28T11:00:00",
         "label": "Maker",
         "speakers": "Gilmar Brito",
         "location": "IF Maker (Sala B01)"
@@ -127,8 +127,8 @@
       {
         "title": "Sala multisensorial: enxergando o mundo de outra forma",
         "description": "",
-        "start": "2022-07-28T09:00:00.000Z",
-        "end": "2022-07-28T12:00:00.000Z",
+        "start": "2022-07-28T09:00:00",
+        "end": "2022-07-28T12:00:00",
         "label": "Inclusão",
         "speakers": "NAPNE",
         "location": "Sala B18"
@@ -136,8 +136,8 @@
       {
         "title": "Roda de Conversa - Mulheres negras intelectuais",
         "description": "",
-        "start": "2022-07-28T13:00:00.000Z",
-        "end": "2022-07-28T14:00:00.000Z",
+        "start": "2022-07-28T13:00:00",
+        "end": "2022-07-28T14:00:00",
         "label": "Inclusão",
         "speakers": "NEBI, NEGED e Juliana das Oliveiras",
         "location": "Pátio"
@@ -145,8 +145,8 @@
       {
         "title": "Oficina - Criando sites e games na web",
         "description": "Já pensou em criar um site para algum projeto seu, um portifólio para seus trabalhos ou até mesmo um game?\n\nNa oficina \"criando sites e games na web\", vamos aprender a criar seu próprio site e até mesmo como desenvolver um game utilizando tecnologias web modernas. Nenhuma experiência com programação é necessária!\n\n#ifpeopensource",
-        "start": "2022-07-28T13:00:00.000Z",
-        "end": "2022-07-28T16:00:00.000Z",
+        "start": "2022-07-28T13:00:00",
+        "end": "2022-07-28T16:00:00",
         "label": "Maker",
         "speakers": "Welton Felix e Fábio Papais",
         "location": "IF Maker (Sala B01)"
@@ -154,8 +154,8 @@
       {
         "title": "Sala multisensorial: enxergando o mundo de outra forma",
         "description": "",
-        "start": "2022-07-28T14:00:00.000Z",
-        "end": "2022-07-28T17:00:00.000Z",
+        "start": "2022-07-28T14:00:00",
+        "end": "2022-07-28T17:00:00",
         "label": "Inclusão",
         "speakers": "NAPNE",
         "location": "Sala B18"
@@ -163,8 +163,8 @@
       {
         "title": "Palestra - Crenças limitantes: como pode afetar sua carreira",
         "description": "",
-        "start": "2022-07-28T15:00:00.000Z",
-        "end": "2022-07-28T16:00:00.000Z",
+        "start": "2022-07-28T15:00:00",
+        "end": "2022-07-28T16:00:00",
         "label": "Empregabilidade",
         "speakers": "Antônio Brandão",
         "location": "Auditório"
@@ -172,8 +172,8 @@
       {
         "title": "Oficina - Imersão no Xadrez (Parte 2)",
         "description": "",
-        "start": "2022-07-28T17:30:00.000Z",
-        "end": "2022-07-28T18:30:00.000Z",
+        "start": "2022-07-28T17:30:00",
+        "end": "2022-07-28T18:30:00",
         "label": "Maker",
         "speakers": "Kênio Menezes",
         "location": "Miniauditório"
@@ -181,8 +181,8 @@
       {
         "title": "Peça Teatral - Retratos do amor",
         "description": "",
-        "start": "2022-07-28T18:00:00.000Z",
-        "end": "2022-07-28T19:00:00.000Z",
+        "start": "2022-07-28T18:00:00",
+        "end": "2022-07-28T19:00:00",
         "label": "Arte e Cultura",
         "speakers": "NAC",
         "location": "Auditório"
@@ -190,8 +190,8 @@
       {
         "title": "Formação em BIM: oportunidades na carreira profissional de engenharia e arquitetura",
         "description": "",
-        "start": "2022-07-28T19:00:00.000Z",
-        "end": "2022-07-28T21:00:00.000Z",
+        "start": "2022-07-28T19:00:00",
+        "end": "2022-07-28T21:00:00",
         "label": "Empregabilidade",
         "speakers": "Januário Leal e Keylla Costa",
         "location": "Miniauditório de Mecânica"
@@ -204,8 +204,8 @@
       {
         "title": "Mostra PIBEX",
         "description": "",
-        "start": "2022-07-29T09:00:00.000Z",
-        "end": "2022-07-29T18:00:00.000Z",
+        "start": "2022-07-29T09:00:00",
+        "end": "2022-07-29T18:00:00",
         "label": null,
         "speakers": null,
         "location": "Hall de Entrada"
@@ -213,8 +213,8 @@
       {
         "title": "Oficina - Arduino e Tecnologia Assistiva (Turma 2)",
         "description": "",
-        "start": "2022-07-29T09:00:00.000Z",
-        "end": "2022-07-29T11:00:00.000Z",
+        "start": "2022-07-29T09:00:00",
+        "end": "2022-07-29T11:00:00",
         "label": "Maker",
         "speakers": "Gilmar Brito",
         "location": "IF Maker (Sala B01)"
@@ -222,8 +222,8 @@
       {
         "title": "Palestra - Trabalho remoto, híbrido ou presencial: qual o melhor para a saúde mental?",
         "description": "",
-        "start": "2022-07-29T09:00:00.000Z",
-        "end": "2022-07-29T11:00:00.000Z",
+        "start": "2022-07-29T09:00:00",
+        "end": "2022-07-29T11:00:00",
         "label": "Empregabilidade",
         "speakers": "Ana Paula Ramos",
         "location": "Auditório"
@@ -231,8 +231,8 @@
       {
         "title": "Cine NAPNE - Sessão 1",
         "description": "",
-        "start": "2022-07-29T09:00:00.000Z",
-        "end": "2022-07-29T12:00:00.000Z",
+        "start": "2022-07-29T09:00:00",
+        "end": "2022-07-29T12:00:00",
         "label": "Inclusão",
         "speakers": "NAPNE",
         "location": "Sala B16"
@@ -240,8 +240,8 @@
       {
         "title": "Feira Agroecológica",
         "description": "",
-        "start": "2022-07-27T10:00:00.000Z",
-        "end": "2022-07-27T16:00:00.000Z",
+        "start": "2022-07-27T10:00:00",
+        "end": "2022-07-27T16:00:00",
         "label": "Agro",
         "speakers": null,
         "location": "Pátio"
@@ -249,8 +249,8 @@
       {
         "title": "Ensaio aberto do Coral Popular do IFPE",
         "description": "",
-        "start": "2022-07-29T11:00:00.000Z",
-        "end": "2022-07-29T12:00:00.000Z",
+        "start": "2022-07-29T11:00:00",
+        "end": "2022-07-29T12:00:00",
         "label": "Arte e Cultura",
         "speakers": null,
         "location": "Pátio"
@@ -258,8 +258,8 @@
       {
         "title": "Palestra - NR12 x acidentes com máquinas: aplicação de ações preventivas",
         "description": "",
-        "start": "2022-07-29T14:00:00.000Z",
-        "end": "2022-07-29T15:00:00.000Z",
+        "start": "2022-07-29T14:00:00",
+        "end": "2022-07-29T15:00:00",
         "label": "Empregabilidade",
         "speakers": "Priscyla Teixeira",
         "location": "Auditório"
@@ -267,8 +267,8 @@
       {
         "title": "Cine NAPNE - Sessão 2",
         "description": "",
-        "start": "2022-07-29T14:00:00.000Z",
-        "end": "2022-07-29T17:00:00.000Z",
+        "start": "2022-07-29T14:00:00",
+        "end": "2022-07-29T17:00:00",
         "label": "Inclusão",
         "speakers": "NAPNE",
         "location": "Sala B16"
@@ -276,8 +276,8 @@
       {
         "title": "Oficina - Robo Escovinha (Turma 1)",
         "description": "",
-        "start": "2022-07-29T14:00:00.000Z",
-        "end": "2022-07-29T17:00:00.000Z",
+        "start": "2022-07-29T14:00:00",
+        "end": "2022-07-29T17:00:00",
         "label": "Maker",
         "speakers": "Hilson Vilar",
         "location": "IF Maker (Sala B01)"
@@ -285,8 +285,8 @@
       {
         "title": "Oficina - Imersão no Xadrez (Parte 3)",
         "description": "",
-        "start": "2022-07-29T17:30:00.000Z",
-        "end": "2022-07-29T18:30:00.000Z",
+        "start": "2022-07-29T17:30:00",
+        "end": "2022-07-29T18:30:00",
         "label": "Maker",
         "speakers": "Kênio Menezes",
         "location": "Miniauditório"
@@ -299,8 +299,8 @@
       {
         "title": "Oficina - Robo Escovinha (Turma 2)",
         "description": "",
-        "start": "2022-07-30T09:00:00.000Z",
-        "end": "2022-07-30T12:00:00.000Z",
+        "start": "2022-07-30T09:00:00",
+        "end": "2022-07-30T12:00:00",
         "label": "Maker",
         "speakers": "José Mário Melo",
         "location": "IF Maker (Sala B01)"
