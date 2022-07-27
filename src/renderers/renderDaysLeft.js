@@ -4,10 +4,10 @@
  */
 export default function renderDaysLeft(daysLeft) {
   const daysLeftElement = document.querySelector(".el-days-left");
-  if (daysLeft >= 1) {
-    daysLeftElement.innerHTML = `O evento começa em ${daysLeft} dia${
-      daysLeft > 1 ? "s" : ""
-    }!`;
+  if (daysLeft > 1) {
+    daysLeftElement.innerHTML = `O evento começa em ${daysLeft} dias!`;
+  } else if (daysLeft === 1) {
+    daysLeftElement.innerHTML = `O evento começa amanhã!`;
   } else {
     daysLeftElement.innerHTML = `O evento já começou!`;
   }
