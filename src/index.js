@@ -16,7 +16,7 @@ const modalContainer = document.querySelector(".el-modal-container");
 const modalOverlay = document.querySelector(".el-modal-overlay");
 const modal = new Modal(modalContainer, modalOverlay);
 
-const daysLeft = getDaysLeft(new Date("2022-07-27"));
+const daysLeft = getDaysLeft(new Date("2022-07-27T00:00:00"));
 render.daysLeft(daysLeft + 1);
 
 new ScheduleFilter((activeFilter) => {
