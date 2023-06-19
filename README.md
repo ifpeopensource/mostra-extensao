@@ -27,14 +27,14 @@
   </a>
 </p>
 
-Website elaborado para a X Mostra de Extensão do IFPE - _Campus_ Recife
+Website elaborado para a XI Mostra de Extensão do IFPE - _Campus_ Recife
 
 ## Time
 
 Este projeto é mantido por esses [incríveis contribuidores](https://github.com/ifpeopensource/mostra-extensao/graphs/contributors).
 
 ## 🤝 Contribuir
-Contribuições, issues e pedidos de features são bem-vindos!<br />Sinta-se livre para checar a [página de issues](https://github.com/ifpeopensource/mostra-extensao/issues). 
+Contribuições, issues e pedidos de features são bem-vindos!<br />Sinta-se livre para checar a [página de issues](https://github.com/ifpeopensource/mostra-extensao/issues).
 - Crie um fork;
 - Crie um branch com a sua feature: `git checkout -b my-feature`;
 - Faça um commit com as mudanças: `git commit -m 'feat: My new feature'`;

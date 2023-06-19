@@ -32,11 +32,15 @@
   @apply bg-emerald-900;
 }
 
+.Tech {
+  @apply bg-purple-600;
+}
+
 .Maker {
   @apply bg-violet-800;
 }
 
-.Empregabilidade {
+.Sa\úde {
   @apply bg-yellow-600;
 }
 

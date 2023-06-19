@@ -31,14 +31,14 @@ export default function generateCalendarURL(calendarService, event) {
     url.searchParams.set("dates", `${start}/${end}`);
 
     url.searchParams.set("action", "TEMPLATE");
-    url.searchParams.set("text", `${title} | X Mostra de Extensão do IFPE`);
+    url.searchParams.set("text", `${title} | XI Mostra de Extensão do IFPE`);
     url.searchParams.set("ctz", "America/Recife");
     if (speakers) {
       url.searchParams.set(
         "details",
-        `Palestrantes: ${speakers}\n\n${description}`
+        `Palestrantes: ${speakers}\n\n${description || ""}`
       );
-    } else {
+    } else if (description) {
       url.searchParams.set("details", description);
     }
     url.searchParams.set("location", location);
@@ -67,13 +67,13 @@ export default function generateCalendarURL(calendarService, event) {
 
     url.searchParams.set("path", "/calendar/action/compose");
     url.searchParams.set("rru", `addevent`);
-    url.searchParams.set("subject", `${title} | X Mostra de Extensão do IFPE`);
+    url.searchParams.set("subject", `${title} | XI Mostra de Extensão do IFPE`);
     if (speakers) {
       url.searchParams.set(
         "body",
-        `Palestrantes: ${speakers}\n\n${description}`
+        `Palestrantes: ${speakers}\n\n${description || ""}`
       );
-    } else {
+    } else if (description) {
       url.searchParams.set("body", description);
     }
     url.searchParams.set("location", location);

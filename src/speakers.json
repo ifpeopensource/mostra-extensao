@@ -1,70 +1,110 @@
 [
   {
-    "name": "Ana Paula Ramos",
-    "image": "./assets/images/speakers/ana-paula-ramos.jpg"
+    "name": "Aida Araújo",
+    "image": "./assets/images/speakers/aida-araujo.jpg"
   },
   {
-    "name": "Antônio Brandão",
-    "image": "./assets/images/speakers/antonio-brandao.jpg"
+    "name": "Andrezza Carolina",
+    "image": "./assets/images/speakers/andrezza-carolina.webp"
   },
   {
-    "name": "Bernardo Klimsa",
-    "image": "./assets/images/speakers/bernardo-klimsa.jpg"
+    "name": "José Angelo Costa",
+    "image": "./assets/images/speakers/angelo-costa.jpeg"
   },
   {
-    "name": "Camila Lima",
-    "image": "./assets/images/speakers/camila-lima.jpg"
+    "name": "Diogo Felipe",
+    "image": "./assets/images/speakers/diogo-felipe.jpeg"
+  },
+  {
+    "name": "Fernanda Celi",
+    "image": "./assets/images/speakers/fernanda-celi.jpeg"
+  },
+  {
+    "name": "Flávio Lima",
+    "image": "./assets/images/speakers/flavio-lima.jpeg"
+  },
+  {
+    "name": "Gueber Pessoa",
+    "image": "./assets/images/speakers/gueber-pessoa.jpeg"
+  },
+  {
+    "name": "Bruna Muniz",
+    "image": "./assets/images/speakers/bruna-muniz.jpeg"
+  },
+  {
+    "name": "Francielly Anísio",
+    "image": "./assets/images/speakers/francielly-anisio.jpeg"
+  },
+  {
+    "name": "Geovanna Mickaella",
+    "image": "./assets/images/speakers/geovanna-mickaella.jpeg"
   },
   {
     "name": "Hilson Vilar",
-    "image": "./assets/images/speakers/hilson-vilar.jpg"
+    "image": "./assets/images/speakers/hilson-vilar.jpeg"
   },
   {
-    "name": "Jadiel Araújo",
-    "image": "./assets/images/speakers/jadiel-araujo.jpg"
+    "name": "Jacek Michalewicz",
+    "image": "./assets/images/speakers/jacek-michalewicz.jpeg"
   },
   {
-    "name": "Januário Leal",
-    "image": "./assets/images/speakers/januario-leal.jpg"
+    "name": "João Paulo",
+    "image": "./assets/images/speakers/joao-paulo.jpeg"
   },
   {
-    "name": "José Mário Melo",
-    "image": "./assets/images/speakers/jose-mario-melo.jpg"
+    "name": "José Marcelo",
+    "image": "./assets/images/speakers/jose-marcelo.png"
   },
   {
-    "name": "Kenio Menezes",
-    "image": "./assets/images/speakers/kenio-menezes.jpg"
+    "name": "José Mário",
+    "image": "./assets/images/speakers/jose-mario.png"
   },
   {
-    "name": "Keylla Alves",
-    "image": "./assets/images/speakers/keylla-alves.jpg"
+    "name": "Josenilde Gaspar",
+    "image": "./assets/images/speakers/josenilde-gaspar.jpeg"
   },
   {
-    "name": "Michelle Feitosa",
-    "image": "./assets/images/speakers/michelle-feitosa.jpg"
+    "name": "Liana Cirne",
+    "image": "./assets/images/speakers/liana-cirne.jpeg"
   },
   {
-    "name": "Pryscila Teixeira",
-    "image": "./assets/images/speakers/pryscila-teixeira.jpg"
+    "name": "Lucivanda Silva",
+    "image": "./assets/images/speakers/lucivanda-silva.jpeg"
   },
   {
-    "name": "Welton Felix",
-    "image": "./assets/images/speakers/welton-felix.jpg"
+    "name": "Marcela Heraclio",
+    "image": "./assets/images/speakers/marcela-heraclio.jpeg"
   },
   {
-    "name": "Fábio Papais",
-    "image": "./assets/images/speakers/fabio-papais.jpg"
+    "name": "Marco César",
+    "image": "./assets/images/speakers/marco-cesar.jpeg"
   },
   {
-    "name": "Jaubert Gouveia",
-    "image": "./assets/images/speakers/jaubert-gouveia.jpg"
+    "name": "Matheus Guerra",
+    "image": "./assets/images/speakers/matheus-guerra.jpeg"
   },
   {
-    "name": "Ryan Paiva",
-    "image": "./assets/images/speakers/ryan-paiva.jpg"
+    "name": "Miriam Gomes",
+    "image": "./assets/images/speakers/miriam-gomes.jpeg"
   },
   {
-    "name": "Estevão Pereira",
-    "image": "./assets/images/speakers/estevao-pereira.png"
+    "name": "Ramide Dantas",
+    "image": "./assets/images/speakers/ramide-dantas.jpeg"
+  },
+  {
+    "name": "Rayane Moreira",
+    "image": "./assets/images/speakers/rayane-moreira.jpeg"
+  },
+  {
+    "name": "Roberta Carneiro",
+    "image": "./assets/images/speakers/roberta-carneiro.jpeg"
+  },
+  {
+    "name": "Roberto Alencar",
+    "image": "./assets/images/speakers/roberto-alencar.jpeg"
+  },
+  {
+    "name": "Rogério Arruda",
+    "image": "./assets/images/speakers/rogerio-arruda.png"
   }
 ]

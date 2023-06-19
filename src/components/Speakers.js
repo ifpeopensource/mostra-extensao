@@ -30,6 +30,7 @@ export class Speakers {
       const speakerEl = speaker.render();
       this.parentElement.appendChild(speakerEl);
     });
+    this.currentRenderPage += this.renderStep;
 
     this.#updateLoadMoreButton();
   }
@@ -48,7 +49,6 @@ export class Speakers {
       this.loadMoreButtonEl.addEventListener(
         "click",
         () => {
-          this.currentRenderPage += this.renderStep;
           this.render();
         },
         { once: true }

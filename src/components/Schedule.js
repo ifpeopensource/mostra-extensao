@@ -42,7 +42,7 @@ export class Schedule {
     days.forEach(([day, events]) => {
       if (
         isNext &&
-        new Date(day) < new Date("2022-07-28").setHours(0, 0, 0, 0)
+        new Date(day) < new Date().setHours(0, 0, 0, 0)
       ) {
         return;
       }

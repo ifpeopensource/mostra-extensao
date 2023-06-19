@@ -54,14 +54,14 @@ export default function generateShareURL(
   function gmail() {
     const url = new URL("https://mail.google.com/mail/");
     url.searchParams.set("view", "cm");
-    url.searchParams.set("su", `${title} na X Mostra de Extensão do IFPE`);
+    url.searchParams.set("su", `${title} na XI Mostra de Extensão do IFPE`);
     url.searchParams.set("body", message);
     return url.href;
   }
 
   function email() {
     const url = new URL("mailto:");
-    url.searchParams.set("subject", `${title} na X Mostra de Extensão do IFPE`);
+    url.searchParams.set("subject", `${title} na XI Mostra de Extensão do IFPE`);
     url.searchParams.set("body", message);
     return url.href;
   }
@@ -96,7 +96,7 @@ export default function generateShareURL(
     formmatedDate.weekday.slice(1)
   } (${formmatedDate.day}) às ${
     formmatedDate.hour
-  } vai acontecer o evento ${title} durante a X Mostra de Extensão do IFPE.\n\nLocal: ${location} - IFPE Campus Recife.\n\nPara mais informações, acesse: https://mostraextensaoifpe.vercel.app`;
+  } vai acontecer o evento ${title} durante a XI Mostra de Extensão do IFPE.\n\nLocal: ${location} - IFPE Campus Recife.\n\nPara mais informações, acesse: https://mostraextensaoifpe.vercel.app`;
 
   if (!socialMediaServices[socialMedia]) {
     throw new Error(`Unknown social media service: ${socialMedia}`);

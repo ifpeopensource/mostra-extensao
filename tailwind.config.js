@@ -6,9 +6,14 @@ module.exports = {
         sans: ["Lato", "Helvetica", "Arial", "sans-serif"],
       },
       colors: {
-        "theme-green": {
-          300: "#43BC89",
-          200: "#78EDAA",
+        "theme-brown": {
+          300: "#d36741",
+        },
+        "theme-purple": {
+          300: "#4a3c64",
+          200: "#584060",
+          100: "#cbbcdf",
+          50: "#E6E1EF"
         },
         "theme-blue": {
           200: "#80A3AF",

@@ -1,309 +1,350 @@
 [
   {
-    "day": "2022-07-27T00:00:00",
+    "day": "2023-06-27T00:00:00",
     "events": [
+      {
+        "title": "Mostra PIBEX",
+        "description": "Apresentação, através de pôsteres, dos resultados parciais dos 35 Projetos PIBEX em desenvolvimento no Campus Recife",
+        "start": "2023-06-27T08:00:00",
+        "end": "2023-06-27T19:00:00",
+        "label": null,
+        "speakers": null,
+        "location": "Hall de Entrada"
+      },
+      {
+        "title": "Feira Agroecológica",
+        "description": "Ótima oportunidade para adquirir produtos de qualidade, orgânicos e produzidos por agriculturas familiares apoiadas pelos extensionistas do Campus Paulista.",
+        "start": "2023-06-27T08:00:00",
+        "end": "2023-06-27T18:00:00",
+        "label": "Agro",
+        "speakers": null,
+        "location": "Pátio"
+      },
+      {
+        "title": "Salve Vidas no Arrasta-pé: Hemope no IFPE",
+        "description": "Ação conjunta com o HEMOPE e o SIASS, com objetivo de conseguir 100 doações de sangue.",
+        "start": "2023-06-27T08:30:00",
+        "end": "2023-06-27T17:00:00",
+        "label": "Saúde",
+        "speakers": "Profª Andrezza Carolina",
+        "location": "Bloco B"
+      },
       {
         "title": "Abertura",
-        "description": "Cerimônia para apresentação oficial do evento e do avanço da prática extensionista no Campus Recife, além de uma homenagem à Profª Márcia Moura, em reconhecimento a sua grande contribuição ao Campus Recife.",
-        "start": "2022-07-27T09:00:00",
-        "end": "2022-07-27T10:00:00",
+        "description": "Cerimônia para apresentação oficial do evento e do avanço da prática extensionista no Campus Recife, além de uma homenagem ao Prof. Jairson Marcos, em reconhecimento a sua grande contribuição ao Campus Recife.",
+        "start": "2023-06-27T09:30:00",
+        "end": "2023-06-27T11:00:00",
         "label": null,
         "speakers": null,
         "location": "Auditório"
       },
       {
-        "title": "Mostra PIBEX",
-        "description": "Apresentação, através de pôsteres, dos resultados parciais dos 30 Projetos PIBEX em desenvolvimento no Campus Recife.",
-        "start": "2022-07-27T09:00:00",
-        "end": "2022-07-27T18:00:00",
-        "label": null,
-        "speakers": null,
-        "location": "Hall de Entrada"
-      },
-      {
-        "title": "Apresentação da Big Band",
-        "description": "",
-        "start": "2022-07-27T10:00:00",
-        "end": "2022-07-27T11:00:00",
+        "title": "Apresentação Coral Popular do IFPE",
+        "description": "Um panorama da música brasileira, de Villa-Lobos aos dias atuais",
+        "start": "2023-06-27T11:00:00",
+        "end": "2023-06-27T12:00:00",
         "label": "Arte e Cultura",
-        "speakers": null,
-        "location": "Pátio"
+        "speakers": "Profª Lucivanda Silva",
+        "location": "Auditório"
       },
       {
-        "title": "Feira Agroecológica",
-        "description": "Hortifrutis Orgânicos\nArtesanatos\nLanches e sucos\nPlantas medicinais e ornamentais\nProdutos Sustentáveis\n\nRealização: Projeto de extensão - \"Paulista Rural II\" Campus Paulista\nParceiros: ABA, Fundação Henrich Boll, Marcha Mundial das Mulheres",
-        "start": "2022-07-27T10:00:00",
-        "end": "2022-07-27T16:00:00",
-        "label": "Agro",
-        "speakers": null,
-        "location": "Pátio"
-      },
-      {
-        "title": "Roda de Conversa - Fortalecimento dos empreendimentos solidários femininos",
-        "description": "Apresentação do Projeto de Extensão desenvolvido no IFPE-Campus Paulista, destacando os benefícios sociais do mesmo.",
-        "start": "2022-07-27T10:30:00",
-        "end": "2022-07-27T12:00:00",
-        "label": "Agro",
-        "speakers": "Camila Lima",
-        "location": "Pátio"
-      },
-      {
-        "title": "Exposição - Conhecendo Libras",
-        "description": "",
-        "start": "2022-07-27T11:00:00",
-        "end": "2022-07-27T17:00:00",
-        "label": "Inclusão",
-        "speakers": "Bernardo Klimsa",
-        "location": "Pátio"
-      },
-      {
-        "title": "Roda de Conversa - Combate à violência por orientação e identidade sexual",
-        "description": "",
-        "start": "2022-07-27T13:00:00",
-        "end": "2022-07-27T16:00:00",
-        "label": "Inclusão",
-        "speakers": "NEGED",
-        "location": "Pátio"
-      },
-      {
-        "title": "Oficina - Robótica Competitiva",
-        "description": "Você tem interesse em robótica? Conhece robôs que participam de competições? Venha conhecer as competições do tema e como funcionam. Na oficina vamos explicar e demonstrar o funcionamento de robôs de competições na categoria VSS Soccer. #ifpeopensource",
-        "start": "2022-07-27T13:00:00",
-        "end": "2022-07-27T16:00:00",
-        "label": "Maker",
-        "speakers": "Ryan Paiva, Jaubert Gouveia, Marcelo Barreiros e Estevão Pereira",
-        "location": "IF Maker (Sala B01)"
-      },
-      {
-        "title": "Formação - Educação Inclusiva",
-        "description": "",
-        "start": "2022-07-27T13:00:00",
-        "end": "2022-07-27T17:00:00",
-        "label": "Inclusão",
-        "speakers": "Michelle Feitosa",
-        "location": "Sala B10"
-      },
-      {
-        "title": "Pocket Show com Bebeto Cruz",
-        "description": "Bebeto Cruz, aluno do 7o. SAN, é um dos membros do Talent Show, Projeto que incentiva o aprendizado de um idioma estrangeiro por meio da música, idealizado pelo NLE/CELLE. Este aluno segue uma carreira na música e possui um trabalho autoral com 10 músicas lançadas nas plataformas digitais e ainda esse ano irá lançar um álbum intitulado \"O amor é mágico!\". Para conhecê-lo é só sacar as redes sociais, onde posta diariamente covers e outros conteúdos relacionados ao seu trabalho.",
-        "start": "2022-07-27T15:00:00",
-        "end": "2022-07-27T16:00:00",
+        "title": "Visita guiada pelo Campus (Escolas do Ensino Fundamental - Anos Finais)",
+        "description": "Com o objetivo de apresentar tudo o que o IFPE - Recife oferece para os futuros estudantes, as caravanas oriundas das Redes municipais de ensino serão recebidas no Auditório, onde assistirão um vídeo institucional e depois serão guiados por um docente para conhecerem os principais laboratórios, parque poliesportivo e o Centro de História, Memória e Documentação.",
+        "start": "2023-06-27T14:00:00",
+        "end": "2023-06-27T15:30:00",
         "label": "Arte e Cultura",
-        "speakers": null,
-        "location": "Pátio"
+        "speakers": "Prof. Rogério Arruda",
+        "location": "Auditório"
       },
       {
-        "title": "Oficina - Imersão no Xadrez (Parte 1)",
-        "description": "Dia 27/07 : Parte 1 - A história do jogo\nDia 28/07 : Parte 2 - Abertura e meio do jogo\nDia 29/07 : Parte 3 - Fechamento e partidas memoráveis",
-        "start": "2022-07-27T17:30:00",
-        "end": "2022-07-27T18:30:00",
-        "label": "Maker",
-        "speakers": "Kênio Menezes",
+        "title": "Orgulho Autista",
+        "description": null,
+        "start": "2023-06-27T14:00:00",
+        "end": "2023-06-27T17:00:00",
+        "label": "Inclusão",
+        "speakers": "Liana Cirne, Matheus Guerra, Rayane Moreira e o Coletivo Rosas de Marighella",
         "location": "Miniauditório"
+      },
+      {
+        "title": "Aulão sobre Radioamadorismo",
+        "description": "Nesse encontro, você vai conhecer um pouco mais sobre o maravilhoso mundo do Radioamadorismo e quais os passos necessários para se tornar um Operador de Estações de Radioamador habilitado pela ANATEL.\n\nTambém serão entregues os certificados de conclusão do Curso de formação e aperfeiçoamento de Radioamadores, ministrado pelo Prof. Guilherme Bahia.",
+        "start": "2023-06-27T15:00:00",
+        "end": "2023-06-27T17:00:00",
+        "label": "Tech",
+        "speakers": "Guilherme Bahia",
+        "location": "Sala A60"
+      },
+      {
+        "title": "Oficina Robô Escovinha",
+        "description": "Nessa oficina, o(a) seu(ua) pequeno(a), entre 8 e 12 anos, vai construir um robô simples baseado em uma escova que se move por vibração, aprendendo de forma divertida os fundamentos da eletrônica. Atividade exclusiva para a comunidade do Campus (filho(a)s de servidores, colaboradores terceirizados e estudantes).",
+        "start": "2023-06-27T15:30:00",
+        "end": "2023-06-27T17:00:00",
+        "label": "Maker",
+        "speakers": "Prof. Hilson Vilar, Pedagoga Josenilde Gaspar, Prof. José Mário Melo, Técnico João Gabriel",
+        "location": "Pátio"
       }
     ]
   },
   {
-    "day": "2022-07-28T00:00:00",
+    "day": "2023-06-28T00:00:00",
     "events": [
       {
         "title": "Mostra PIBEX",
-        "description": "Apresentação, através de pôsteres, dos resultados parciais dos 30 Projetos PIBEX em desenvolvimento no Campus Recife.",
-        "start": "2022-07-28T09:00:00",
-        "end": "2022-07-28T18:00:00",
+        "description": "Apresentação, através de pôsteres, dos resultados parciais dos 35 Projetos PIBEX em desenvolvimento no Campus Recife.",
+        "start": "2023-06-28T08:00:00",
+        "end": "2023-06-28T19:00:00",
         "label": null,
         "speakers": null,
         "location": "Hall de Entrada"
       },
       {
-        "title": "Oficina - Arduino e Tecnologia Assistiva (Turma 1)",
-        "description": "",
-        "start": "2022-07-28T09:00:00",
-        "end": "2022-07-28T11:00:00",
-        "label": "Maker",
-        "speakers": "Gilmar Brito",
-        "location": "IF Maker (Sala B01)"
+        "title": "Visita guiada pelo Campus (Escolas do Ensino Fundamental - Anos Finais)",
+        "description": "Com o objetivo de apresentar tudo o que o IFPE - Recife oferece para os futuros estudantes, as caravanas oriundas das Redes municipais de ensino serão recebidas no Auditório, onde assistirão um vídeo institucional e depois serão guiados por um docente para conhecerem os principais laboratórios, parque poliesportivo e o Centro de História, Memória e Documentação.",
+        "start": "2023-06-28T09:00:00",
+        "end": "2023-06-28T10:30:00",
+        "label": "Arte e Cultura",
+        "speakers": "Rogério Arruda",
+        "location": "Auditório Principal"
       },
       {
-        "title": "Sala multisensorial: enxergando o mundo de outra forma",
-        "description": "",
-        "start": "2022-07-28T09:00:00",
-        "end": "2022-07-28T12:00:00",
+        "title": "CineNapne - Crisálida, emoção no silêncio",
+        "description": "Apresentação cinematográfica com o apoio de Eduardo José - Estudante do Curso de Educação Física (UNIBRA), Bruno Renan e Wellenice Amaral - Tradutores e Intérpretes de Libras IFPE Campus Recife.",
+        "start": "2023-06-28T09:00:00",
+        "end": "2023-06-28T10:00:00",
         "label": "Inclusão",
-        "speakers": "NAPNE",
-        "location": "Sala B18"
+        "speakers": "Eduardo José, Bruno Renan e Wellenice Amaral",
+        "location": "Sala B19"
       },
       {
-        "title": "Roda de Conversa - Mulheres negras intelectuais",
-        "description": "",
-        "start": "2022-07-28T13:00:00",
-        "end": "2022-07-28T14:00:00",
+        "title": "CineNapne - Crisálida, emoção no silêncio",
+        "description": "Apresentação cinematográfica com o apoio de Eduardo José - Estudante do Curso de Educação Física (UNIBRA), Bruno Renan e Wellenice Amaral - Tradutores e Intérpretes de Libras IFPE Campus Recife.",
+        "start": "2023-06-28T10:30:00",
+        "end": "2023-06-28T11:30:00",
         "label": "Inclusão",
-        "speakers": "NEBI, NEGED e Juliana das Oliveiras",
-        "location": "Pátio"
+        "speakers": "Eduardo José, Bruno Renan e Wellenice Amaral",
+        "location": "Sala B19"
       },
       {
-        "title": "Oficina - Criando sites e games na web",
-        "description": "Já pensou em criar um site para algum projeto seu, um portifólio para seus trabalhos ou até mesmo um game?\n\nNa oficina \"criando sites e games na web\", vamos aprender a criar seu próprio site e até mesmo como desenvolver um game utilizando tecnologias web modernas. Nenhuma experiência com programação é necessária!\n\n#ifpeopensource",
-        "start": "2022-07-28T13:00:00",
-        "end": "2022-07-28T16:00:00",
-        "label": "Maker",
-        "speakers": "Welton Felix e Fábio Papais",
-        "location": "IF Maker (Sala B01)"
-      },
-      {
-        "title": "Sala multisensorial: enxergando o mundo de outra forma",
-        "description": "",
-        "start": "2022-07-28T14:00:00",
-        "end": "2022-07-28T17:00:00",
-        "label": "Inclusão",
-        "speakers": "NAPNE",
-        "location": "Sala B18"
-      },
-      {
-        "title": "Palestra - Crenças limitantes: como pode afetar sua carreira",
-        "description": "",
-        "start": "2022-07-28T15:00:00",
-        "end": "2022-07-28T16:00:00",
-        "label": "Empregabilidade",
-        "speakers": "Antônio Brandão",
-        "location": "Auditório"
-      },
-      {
-        "title": "Oficina - Imersão no Xadrez (Parte 2)",
-        "description": "Dia Dia 27/07 : Parte 1 - A história do jogo\nDia 28/07 : Parte 2 - Abertura e meio do jogo\nDia 29/07 : Parte 3 - Fechamento e partidas memoráveis",
-        "start": "2022-07-28T17:30:00",
-        "end": "2022-07-28T18:30:00",
-        "label": "Maker",
-        "speakers": "Kênio Menezes",
+        "title": "Robótica Competitiva: IFOS - Robots rumo à França",
+        "description": "A equipe do IFPE Open Source, vice-campeã nacional na modalidade RoboCup Junior Soccer Lightweight e que representará o Brasil na RoboCup 2023, em Bordeaux (França), irá apresentar todo o processo envolvido na construção dos robôs que irão competir, expectativas e desafios. Imperdível para quem gosta de robótica.",
+        "start": "2023-06-28T11:00:00",
+        "end": "2023-06-28T12:00:00",
+        "label": "Tech",
+        "speakers": "Equipe IFOS - Robots",
         "location": "Miniauditório"
       },
       {
-        "title": "Peça Teatral - Retratos do amor",
-        "description": "Montagem teatral elaborada pelos bolsistas do Núcleo de Arte e Cultura (NAC).\n\nSINOPSE: Quando foi a última vez que você viu o Amor? Nem sempre estamos atentos a esses detalhes, por isso, a peça 'Retratos de Amor' surgiu depois que ele decidiu bater na porta, trazendo a temática de amar em suas diferentes formas. O espetáculo é uma criação coletiva do Grupo Arte em Movimento, reunindo histórias escritas depois de um mergulho criativo nos sentimentos de fotografias antigas. Esperamos você para guardarmos juntos esse momento em nossas memórias...\n3, 2, 1 e Xís!\n\nA Peça \"Retratos de Amor\", realizada pelo grupo Arte em Movimento, o de teatro do IFPE-Campus Recife, estará sendo apresentada pela PRIMEIRA VEZ na X Mostra de Extensão do IFPE - Campus Recife.\n\nDúvidas: Entre em contato pelo Instagram @teatroifpe\n\nCRÉDITOS\nTexto: Jãvi Lima\nRevisão: Rhayssa Mousinho",
-        "start": "2022-07-28T18:00:00",
-        "end": "2022-07-28T19:00:00",
+        "title": "Visita guiada pelo Campus (Escolas do Ensino Fundamental - Anos Finais)",
+        "description": "Com o objetivo de apresentar tudo o que o IFPE - Recife oferece para os futuros estudantes, as caravanas oriundas das Redes municipais de ensino serão recebidas no Auditório, onde assistirão um vídeo institucional e depois serão guiados por um docente para conhecerem os principais laboratórios, parque poliesportivo e o Centro de História, Memória e Documentação.",
+        "start": "2023-06-28T14:00:00",
+        "end": "2023-06-28T15:30:00",
+        "label": "Arte e Cultura",
+        "speakers": "Rogério Arruda",
+        "location": "Auditório"
+      },
+      {
+        "title": "Palestra: A mecânica para o serviço da saúde: Compartilhando experiências",
+        "description": "Relato de experiências de Projetos desenvolvidos pelos docentes de Mecânica Industrial, do Campus Recife.",
+        "start": "2023-06-28T14:00:00",
+        "end": "2023-06-28T16:00:00",
+        "label": "Saúde",
+        "speakers": "José Angelo Costa e Jacek Stanislaw",
+        "location": "Sala C-14C"
+      },
+      {
+        "title": "Aulão: O que é uma Maratona de Progamação?",
+        "description": "Com o objetivo de preparar os estudantes para a I Maratona de Programação, a atividade contempla uma Palestra com demonstração prática na plataforma da competição.",
+        "start": "2023-06-28T14:00:00",
+        "end": "2023-06-28T17:00:00",
+        "label": "Tech",
+        "speakers": "Ramide Dantas",
+        "location": "Auditório do Centro de Pesquisa"
+      },
+      {
+        "title": "A Inteligência Artificial e o fazer profissional do(a) Tradutor(a) e Intérprete de Libras",
+        "description": null,
+        "start": "2023-06-28T14:20:00",
+        "end": "2023-06-28T15:20:00",
+        "label": "Inclusão",
+        "speakers": "Bruno Renan, Carlos Eduardo de Oliveira, Micaías Calvário da Silva, Tarciana Ramos e Wellenice Amaral",
+        "location": "Sala B19"
+      },
+      {
+        "title": "A Inteligência Artificial e o fazer profissional do(a) Tradutor(a) e Intérprete de Libras",
+        "description": null,
+        "start": "2023-06-28T18:50:00",
+        "end": "2023-06-28T20:50:00",
+        "label": "Inclusão",
+        "speakers": "Bruno Renan, Carlos Eduardo de Oliveira, Micaías Calvário da Silva, Tarciana Ramos e Wellenice Amaral",
+        "location": "Sala B19"
+      }
+    ]
+  },
+  {
+    "day": "2023-06-29T00:00:00",
+    "events": [
+      {
+        "title": "Mostra PIBEX",
+        "description": "Apresentação, através de pôsteres, dos resultados parciais dos 30 Projetos PIBEX em desenvolvimento no Campus Recife.",
+        "start": "2023-06-29T08:00:00",
+        "end": "2023-06-29T19:00:00",
+        "label": null,
+        "speakers": null,
+        "location": "Hall de Entrada"
+      },
+      {
+        "title": "Conhecendo o Projeto Tecbaja",
+        "description": "Nessa exposição, você vai poder conhecer o trabalho massa da Equipe Tecbaja Recife, formada por estudantes dos cursos técnico em Mecânica e Superior em Engenharia Mecânica.",
+        "start": "2023-06-29T09:00:00",
+        "end": "2023-06-29T17:00:00",
+        "label": "Tech",
+        "speakers": "Jacek Stanislaw",
+        "location": "Pátio"
+      },
+      {
+        "title": "Performance Artísitica - \"Onde Cabe a Arte no Campus?\"",
+        "description": "A performance \"Onde cabe a arte no campus?\" é um convite para um novo olhar ao Campus do IFPE, ressaltando a possibilidade de (R)existência da arte depois de tantos cortes orçamentários na educação. O Grupo Arte em Movimento, que existe no IFPE - Campus Recife desde o ano 2000, decide promover esse novo debate, através do corpo expressivo em cena.",
+        "start": "2023-06-29T09:30:00",
+        "end": "2023-06-29T10:30:00",
         "label": "Arte e Cultura",
         "speakers": "NAC",
-        "location": "Auditório"
+        "location": "Pátio"
       },
       {
-        "title": "Formação em BIM: oportunidades na carreira profissional de engenharia e arquitetura",
-        "description": "O workshop Formação em BIM: oportunidades na carreira do profissional de Engenharia, Arquitetura e Construção é um evento que está entre as ações do grupo de pesquisa CLUBIM – grupo de estudos e práticas em BIM. Neste workshop será abordada a situação atual da adoção do BIM nas instituições de ensino superior do Brasil bem como, no cenário mundial.  Além disso, serão apresentadas as oportunidades nacionais e internacionais para os profissionais capacitados em BIM.",
-        "start": "2022-07-28T19:00:00",
-        "end": "2022-07-28T21:00:00",
-        "label": "Empregabilidade",
-        "speakers": "Januário Leal e Keylla Costa",
-        "location": "Miniauditório de Mecânica"
+        "title": "Cinedebate -\"Como se fosse família\"",
+        "description": "Trata-se de um cinedebate sobre a condição da MULHER NEGRA, a partir da minissérie “Histórias impossíveis” (episódio “Mancha”) E DE TEXTOS TEÓRICOS. A discussão terá o recorte de raça, gênero e classe, tendo como base o livro “Por um feminismo latinoamericano” de LÉLIA González, com os capítulos “A mulher brasileira” e “Por um feminismo latinoamericano”. Para tal objetivo, teremos a representação do movimento estudantil, do Núcleo de Estudos Afrobrasileiro e Indígenas (NEABI) e do  Núcleo de Gênero e Diversidade (NEGED) do CAMPUS. Essa atividade surgiu da experiência no grupo de estudos do Núcleo de Gênero e Diversidade (NEGED), de articulações teóricas do feminismo negro com a linguagem do áudio visual e de fecundas parcerias com o NEABI.",
+        "start": "2023-06-29T10:00:00",
+        "end": "2023-06-29T12:00:00",
+        "label": "Inclusão",
+        "speakers": "NEGED/NEABI",
+        "location": "Miniauditório"
+      },
+      {
+        "title": "Processos criativos do GAM - \"A arte e seu espaço dentro do IFPE\" (sorteio de ingressos para a Peça \"Retratos do Amor\")",
+        "description": "A mesa de diálogo terá a participação de integrantes do Grupo Arte em Movimento para falar um pouco sobre seus processos criativos entre 2021 a 2023, e também para dialogar sobre a performance \"Onde Cabe a Arte no Campus?\", apresentada no mesmo dia, no turno da manhã.",
+        "start": "2023-06-29T11:30:00",
+        "end": "2023-06-29T12:30:00",
+        "label": "Arte e Cultura",
+        "speakers": "Grupo Capivaras, NAPNE (Intérpretes terceirizados)",
+        "location": "Pátio"
+      },
+      {
+        "title": "I Maratona de Programação - Ensino Médio",
+        "description": "Que tal testar suas habilidades como Programador? Então não perde tempo, monta tua dupla e te inscreve! Não deixe de trazer o comprovante de matrícula, pois é exclusivo para estudantes do ensino médio regularmente matriculados no IFPE, sendo 12 duplas do Campus Recife, 8 duplas do Campus Jaboatão (co-organizador) e 5 duplas dos demais Campi do IFPE.\n\nPara se inscrever, você obrigatoriamente deve ser do Nível Médio do Campus Recife. Após a inscrição, a sua dupla deve preencher o formulário disponível no link: https://forms.gle/wCLhbHCKoQh87mtd8",
+        "start": "2023-06-29T14:00:00",
+        "end": "2023-06-29T16:00:00",
+        "label": "Tech",
+        "speakers": "Prof. Hilson Vilar, Ramide Dantas, Roberto Alencar",
+        "location": "Sala F47"
+      },
+      {
+        "title": "Minicurso: ESP32 + Kodular (Parte I)",
+        "description": "Nesse minicurso, dividido em duas partes, a galera massa do GRENDES vai mostrar as potencialidade do uso de um microcontrolador de alto desempenho, com uma plataforma visual de desenvolvimento de aplicativos",
+        "start": "2023-06-29T14:00:00",
+        "end": "2023-06-29T17:00:00",
+        "label": "Tech",
+        "speakers": "Profª. Aida Araújo",
+        "location": "Laboratório GRENDES (Centro de Pesquisa)"
+      },
+      {
+        "title": "Apresentação Tiny Band",
+        "description": "Nessa montagem inédita, os docentes músicos do Campus Recife irão interpretar clássicos da música nordestina.",
+        "start": "2023-06-29T16:00:00",
+        "end": "2023-06-29T17:00:00",
+        "label": "Arte e Cultura",
+        "speakers": "Prof. Flávio, Gueber, Lucivanda, Miriam, Marcos César",
+        "location": "Mini-palco do Pátio"
+      },
+      {
+        "title": "A Inteligência Artificial e o fazer profissional do(a) Tradutor(a) e Intérptrete de Libras",
+        "description": "Nesse minicurso, dividido em duas partes, a galera massa do GRENDES vai mostrar as potencialidade do uso de um microcontrolador de alto desempenho, com uma plataforma visual de desenvolvimento de aplicativos",
+        "start": "2023-06-29T18:50:00",
+        "end": "2023-06-29T20:50:00",
+        "label": "Inclusão",
+        "speakers": "Carlos Eduardo de Oliveira, Micaías Calvário da Silva",
+        "location": "Sala B-19"
       }
     ]
   },
   {
-    "day": "2022-07-29T00:00:00",
+    "day": "2023-06-30T00:00:00",
     "events": [
       {
         "title": "Mostra PIBEX",
-        "description": "Apresentação, através de pôsteres, dos resultados parciais dos 30 Projetos PIBEX em desenvolvimento no Campus Recife.",
-        "start": "2022-07-29T09:00:00",
-        "end": "2022-07-29T18:00:00",
+        "description": "Apresentação, através de pôsteres, dos resultados parciais dos 35 Projetos PIBEX em desenvolvimento no Campus Recife",
+        "start": "2023-06-30T08:00:00",
+        "end": "2023-06-30T19:00:00",
         "label": null,
         "speakers": null,
         "location": "Hall de Entrada"
       },
       {
-        "title": "Oficina - Arduino e Tecnologia Assistiva (Turma 2)",
-        "description": "",
-        "start": "2022-07-29T09:00:00",
-        "end": "2022-07-29T11:00:00",
-        "label": "Maker",
-        "speakers": "Gilmar Brito",
-        "location": "IF Maker (Sala B01)"
-      },
-      {
-        "title": "Palestra - Trabalho remoto, híbrido ou presencial: qual o melhor para a saúde mental?",
-        "description": "",
-        "start": "2022-07-29T09:00:00",
-        "end": "2022-07-29T11:00:00",
-        "label": "Empregabilidade",
-        "speakers": "Ana Paula Ramos",
-        "location": "Auditório"
-      },
-      {
-        "title": "Cine NAPNE - Sessão 1",
-        "description": "",
-        "start": "2022-07-29T09:00:00",
-        "end": "2022-07-29T12:00:00",
-        "label": "Inclusão",
-        "speakers": "NAPNE",
-        "location": "Sala B16"
-      },
-      {
-        "title": "Feira Agroecológica",
-        "description": "Hortifrutis Orgânicos\nArtesanatos\nLanches e sucos\nPlantas medicinais e ornamentais\nProdutos Sustentáveis\n\nRealização: Projeto de extensão - \"Paulista Rural II\" Campus Paulista\nParceiros: ABA, Fundação Henrich Boll, Marcha Mundial das Mulheres",
-        "start": "2022-07-27T10:00:00",
-        "end": "2022-07-27T16:00:00",
-        "label": "Agro",
-        "speakers": null,
-        "location": "Pátio"
-      },
-      {
-        "title": "Ensaio aberto do Coral Popular do IFPE",
-        "description": "",
-        "start": "2022-07-29T11:00:00",
-        "end": "2022-07-29T12:00:00",
+        "title": "Exposição do Núcleo de Documentação sobre os Movimentos Sociais de Pernambuco Dênis Bernardes (NUDOC/UFPE)",
+        "description": "O NuDoc, Núcleo de Documentação sobre os Movimentos Sociais de Pernambuco Dênis Bernardes, é um Núcleo de Extensão da UFPE criado em 2005. A função do núcleo é preservar a memória de sindicatos, associações comunitárias, entidades estudantis e outros diversos movimentos sociais, rurais e urbanos.",
+        "start": "2023-06-30T08:00:00",
+        "end": "2023-06-30T18:00:00",
         "label": "Arte e Cultura",
-        "speakers": null,
+        "speakers": "Prof. José Marcelo Marques Ferreira Filho",
         "location": "Pátio"
       },
       {
-        "title": "Palestra - NR12 x acidentes com máquinas: aplicação de ações preventivas",
-        "description": "Palestra com foco nas medidas preventivas da Norma regulamentadora 12 com aplicação de metrologia ativa.",
-        "start": "2022-07-29T14:00:00",
-        "end": "2022-07-29T15:00:00",
-        "label": "Empregabilidade",
-        "speakers": "Priscyla Teixeira",
-        "location": "Auditório"
+        "title": "I Maratona de Programação - Ensino Superior",
+        "description": "Que tal testar suas habilidades como Programador? Então não perde tempo, monta tua dupla e te inscreve! Não deixe de trazer o comprovante de matrícula, pois é exclusivo para estudantes do ensino superior regularmente matriculados no IFPE, sendo 10 duplas do Campus Recife, 7 duplas do Campus Jaboatão (co-organizador) e 5 duplas dos demais Campi do IFPE. Para se inscrever por aqui, você obrigatoriamente deve ser do Nível superior do Campus Recife. Após a inscrição, a sua dupla deve preencher o formulário disponível no link: https://forms.gle/wCLhbHCKoQh87mtd8",
+        "start": "2023-06-30T14:00:00",
+        "end": "2023-06-30T16:00:00",
+        "label": "Tech",
+        "speakers": "Prof. Hilson Vilar, Ramide Dantas, Roberto Alencar",
+        "location": "Auditório do Centro de Pesquisa"
       },
       {
-        "title": "Cine NAPNE - Sessão 2",
-        "description": "",
-        "start": "2022-07-29T14:00:00",
-        "end": "2022-07-29T17:00:00",
-        "label": "Inclusão",
-        "speakers": "NAPNE",
-        "location": "Sala B16"
+        "title": "Minicurso: ESP32 + Kodular (Parte II)",
+        "description": "Nesse minicurso, dividido em duas partes, a galera massa do GRENDES vai mostrar as potencialidade do uso de um microcontrolador de alto desempenho, com uma plataforma visual de desenvolvimento de aplicativos",
+        "start": "2023-06-30T14:00:00",
+        "end": "2023-06-30T17:00:00",
+        "label": "Tech",
+        "speakers": "Profª. Aida Araújo",
+        "location": "Laboratório GRENDES (Centro de Pesquisa)"
       },
       {
-        "title": "Oficina - Robô Escovinha (Turma 1)",
-        "description": "O seu filho(a), entre 8 e 12 anos, vai construir um robô simples baseado em uma escova que se move por vibração, aprendendo de forma divertida os fundamentos da eletrônica.",
-        "start": "2022-07-29T14:00:00",
-        "end": "2022-07-29T17:00:00",
-        "label": "Maker",
-        "speakers": "Hilson Vilar",
-        "location": "IF Maker (Sala B01)"
+        "title": "Apresentação Coral Popular do IFPE",
+        "description": "Um panorama da música brasileira, de Villa-Lobos aos dias atuais",
+        "start": "2023-06-30T14:00:00",
+        "end": "2023-06-30T15:00:00",
+        "label": "Arte e Cultura",
+        "speakers": "Profª. Lucivanda Silva",
+        "location": "Pátio"
       },
       {
-        "title": "Oficina - Imersão no Xadrez (Parte 3)",
-        "description": "Dia 27/07 : Parte 1 - A história do jogo\nDia 28/07 : Parte 2 - Abertura e meio do jogo\nDia 29/07 : Parte 3 - Fechamento e partidas memoráveis",
-        "start": "2022-07-29T17:30:00",
-        "end": "2022-07-29T18:30:00",
-        "label": "Maker",
-        "speakers": "Kênio Menezes",
-        "location": "Miniauditório"
+        "title": "A saúde mental e o trabalho das mulheres",
+        "description": "Uma reflexão sobre a saúde mental e o trabalho das mulheres, mediada pela Profª Andrezza Carolina e conduzida pela Psicóloga Roberta Carneiro.",
+        "start": "2023-06-30T14:00:00",
+        "end": "2023-06-30T16:00:00",
+        "label": "Saúde",
+        "speakers": "Palestrante: Psicóloga Roberta Carneiro.\n Mediadora: Andrezza Carolina",
+        "location": "Auditório do Centro de Pesquisa"
+      },
+      {
+        "title": "Apresentação do Grupo Ponto dos Músicos",
+        "description": "Nessa configuração inédita e imperdível, os Professores músicos do Campus Recife apresentam um repertório repleto de clássicos da música popular brasileira.",
+        "start": "2023-06-30T16:00:00",
+        "end": "2023-06-30T17:00:00",
+        "label": "Arte e Cultura",
+        "speakers": "Lucivanda Silva, Marco César, Fernanda Celi, Gueber Pessoa, Flávio Lima, Miriam Gomes, João Paulo Albertim",
+        "location": "Pátio"
       }
     ]
   },
   {
-    "day": "2022-07-30T00:00:00",
+    "day": "2023-07-01T00:00:00",
     "events": [
       {
-        "title": "Oficina - Robô Escovinha (Turma 2)",
-        "description": "O seu filho(a), entre 8 e 12 anos, vai construir um robô simples baseado em uma escova que se move por vibração, aprendendo de forma divertida os fundamentos da eletrônica.",
-        "start": "2022-07-30T09:00:00",
-        "end": "2022-07-30T12:00:00",
-        "label": "Maker",
-        "speakers": "José Mário Melo",
-        "location": "IF Maker (Sala B01)"
+        "title": "Peça Teatral \"Retratos de Amor\" (Teatro Barreto Jr.)",
+        "description": "Quando foi a última vez que você viu o Amor? Nem sempre estamos atentos a esses detalhes, por isso, a peça 'Retratos de Amor' surgiu depois que ele decidiu bater na porta, trazendo a temática de amar em suas diferentes formas. O espetáculo é uma criação coletiva do Grupo Arte em Movimento, reunindo histórias escritas depois de um mergulho criativo nos sentimentos de fotografias antigas. Esperamos você para guardarmos juntos esse momento em nossas memórias... \n3, 2, 1 e Xís!\n\nParticipantes da XI Mostra poderão adquirir os ingressos no local do evento, a preço promocional de R$ 10,00 (PIX: teatroifpe@gmail.com (enviar comprovante no direct)",
+        "start": "2023-07-01T16:30:00",
+        "end": "2023-07-01T18:30:00",
+        "label": "Arte e Cultura",
+        "speakers": null,
+        "location": "Teatro Barreto Jr."
       }
     ]
   }
